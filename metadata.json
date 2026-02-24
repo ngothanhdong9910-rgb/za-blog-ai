@@ -1,0 +1,5 @@
+{
+  "name": "AI Blog Master",
+  "description": "A complete AI-powered blog writing platform using Gemini AI, featuring user authentication, automated content generation, and a modern dashboard.",
+  "requestFramePermissions": []
+}
