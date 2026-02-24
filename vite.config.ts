@@ -19,6 +19,9 @@ export default defineConfig(({mode}) => {
       // HMR is disabled in AI Studio via DISABLE_HMR env var.
       // Do not modifyâfile watching is disabled to prevent flickering during agent edits.
       hmr: process.env.DISABLE_HMR !== 'true',
+      port: 3000,      // Ép dự án chạy đúng cổng 3000
+      host: '0.0.0.0', // Mở cửa cho các kết nối từ bên ngoài (như ngrok)
+      allowedHosts: true
     },
   };
 });
